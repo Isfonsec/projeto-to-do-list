@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List</title>
-    <script src="https://kit.fontawesome.com/fa862427fd.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="/estilos/style.css">
 </head>
 <body>
-    <main>
-        <h1>To-Do List <i class="fa-solid fa-list-check"></i></h1>
-        
-        <div id="entrada">
-            <input type="text" id="itarefa" placeholder="Adicione uma tarefa">
-            <input id="botao" type="button" value="Adicionar" onclick="add()">
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="images/icon.png" alt="icone"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button>Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
         </div>
-        
-        <div id="res"></div>
-    </main>
-    <script src="script.js"></script>
+    </div>
 </body>
 </html>
