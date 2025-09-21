@@ -49,7 +49,7 @@ input {
     flex: 1;
     border: none;
     outline: none;
-    background: transparent;
+    background-color: transparent;
     padding: 10px;
 }
 
