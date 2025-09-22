@@ -12,7 +12,7 @@ function addTask() {
         span.innerHTML = "\u00d7"
         li.appendChild(span)
     }
-    inputBox = ''
+    inputBox.value = ''
     saveData()
 }
 
@@ -32,6 +32,11 @@ function saveData() {
 
 function showTask() {
     listContainer.innerHTML = localStorage.getItem('data')
+}
+
+function clearAll() {
+    localStorage.clear()
+    listContainer.innerHTML = ''
 }
 
 showTask()
