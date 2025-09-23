@@ -111,3 +111,9 @@ ul li span {
 ul li span:hover {
     background: #edeef0;
 }
+
+#clear {
+    margin-top: 60px;
+    background-color: #555;
+    padding: 16px 40px;
+}
